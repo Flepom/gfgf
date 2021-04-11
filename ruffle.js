@@ -1356,13 +1356,13 @@
                     contextMenuItems() {
                         const e = [];
                         return this.fullscreenEnabled && (this.isFullscreen ? e.push({
-                            text: "Exit fullscreen",
+                            text: "صغر الشاشة",
                             onClick: this.exitFullscreen.bind(this)
                         }) : e.push({
-                            text: "Enter fullscreen",
+                            text: "إملئ الشاشة",
                             onClick: this.enterFullscreen.bind(this)
                         })), e.push({
-                            text: "Flepo Gaming)",
+                            text: "ألعاب فليبو",
                             onClick() {
                                 window.open(_e, "_blank")
                             },
