@@ -1362,7 +1362,7 @@
                             text: "إملئ الشاشة",
                             onClick: this.enterFullscreen.bind(this)
                         })), e.push({
-                            text: "ألعاب فليبو",
+                            text: "مشغل فليبو",
                             onClick() {
                                 window.open(_e, "_blank")
                             },
